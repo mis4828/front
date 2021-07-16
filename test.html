@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ak3332.dothome.co.kr/jq/jquery.js"></script>
     <title>Git 테스트 페이지</title>
     <script>
         function abc(){
             alert("테스트")
         }
+        $("#btn").click(function(){
+            alert("sets")
+        });
     </script>
 </head>
 <body>
     <input type="button" value="클릭" onclick="abc()">
+    <input type="button" value="클릭" id="btn">
 </body>
 </html>
